@@ -6,8 +6,11 @@ authors = ["Helpmerunaway <solovyovri@yandex.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+selene = ">=2.0.0b5"
+pytest = "7.1.2"
 
 [tool.poetry.dev-dependencies]
+pylint = "2.15"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
